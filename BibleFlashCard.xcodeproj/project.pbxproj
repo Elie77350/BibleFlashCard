@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D011ED2C2BA30BB0003F82C6 /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011ED2B2BA30BB0003F82C6 /* CardBack.swift */; };
 		D02A19082BA203A100C577C2 /* BibleFlashCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A19072BA203A100C577C2 /* BibleFlashCardApp.swift */; };
 		D02A190A2BA203A100C577C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A19092BA203A100C577C2 /* ContentView.swift */; };
 		D02A190C2BA203A100C577C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02A190B2BA203A100C577C2 /* Assets.xcassets */; };
 		D02A190F2BA203A100C577C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02A190E2BA203A100C577C2 /* Preview Assets.xcassets */; };
 		D02A19112BA203A100C577C2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A19102BA203A100C577C2 /* Persistence.swift */; };
 		D02A19142BA203A100C577C2 /* BibleFlashCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D02A19122BA203A100C577C2 /* BibleFlashCard.xcdatamodeld */; };
+		D02A191B2BA206AA00C577C2 /* Rainbow Paper.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D02A191A2BA206AA00C577C2 /* Rainbow Paper.ttf */; };
+		D02A191E2BA20BBD00C577C2 /* QuestionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A191D2BA20BBD00C577C2 /* QuestionListView.swift */; };
+		D02A19202BA2177F00C577C2 /* QuizzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A191F2BA2177F00C577C2 /* QuizzView.swift */; };
+		D02A19222BA2298A00C577C2 /* AddQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A19212BA2298A00C577C2 /* AddQuestionView.swift */; };
+		D02A19262BA25AED00C577C2 /* CardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A19252BA25AED00C577C2 /* CardFront.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D011ED2B2BA30BB0003F82C6 /* CardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBack.swift; sourceTree = "<group>"; };
 		D02A19042BA203A100C577C2 /* BibleFlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleFlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02A19072BA203A100C577C2 /* BibleFlashCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleFlashCardApp.swift; sourceTree = "<group>"; };
 		D02A19092BA203A100C577C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +30,12 @@
 		D02A190E2BA203A100C577C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D02A19102BA203A100C577C2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D02A19132BA203A100C577C2 /* BibleFlashCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BibleFlashCard.xcdatamodel; sourceTree = "<group>"; };
+		D02A191A2BA206AA00C577C2 /* Rainbow Paper.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rainbow Paper.ttf"; sourceTree = "<group>"; };
+		D02A191C2BA2079100C577C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D02A191D2BA20BBD00C577C2 /* QuestionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListView.swift; sourceTree = "<group>"; };
+		D02A191F2BA2177F00C577C2 /* QuizzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzView.swift; sourceTree = "<group>"; };
+		D02A19212BA2298A00C577C2 /* AddQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionView.swift; sourceTree = "<group>"; };
+		D02A19252BA25AED00C577C2 /* CardFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFront.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +68,15 @@
 		D02A19062BA203A100C577C2 /* BibleFlashCard */ = {
 			isa = PBXGroup;
 			children = (
+				D02A191C2BA2079100C577C2 /* Info.plist */,
 				D02A19072BA203A100C577C2 /* BibleFlashCardApp.swift */,
+				D02A191A2BA206AA00C577C2 /* Rainbow Paper.ttf */,
 				D02A19092BA203A100C577C2 /* ContentView.swift */,
+				D02A191F2BA2177F00C577C2 /* QuizzView.swift */,
+				D02A19252BA25AED00C577C2 /* CardFront.swift */,
+				D011ED2B2BA30BB0003F82C6 /* CardBack.swift */,
+				D02A191D2BA20BBD00C577C2 /* QuestionListView.swift */,
+				D02A19212BA2298A00C577C2 /* AddQuestionView.swift */,
 				D02A190B2BA203A100C577C2 /* Assets.xcassets */,
 				D02A19102BA203A100C577C2 /* Persistence.swift */,
 				D02A19122BA203A100C577C2 /* BibleFlashCard.xcdatamodeld */,
@@ -132,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02A190F2BA203A100C577C2 /* Preview Assets.xcassets in Resources */,
+				D02A191B2BA206AA00C577C2 /* Rainbow Paper.ttf in Resources */,
 				D02A190C2BA203A100C577C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,9 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D011ED2C2BA30BB0003F82C6 /* CardBack.swift in Sources */,
 				D02A19112BA203A100C577C2 /* Persistence.swift in Sources */,
+				D02A191E2BA20BBD00C577C2 /* QuestionListView.swift in Sources */,
+				D02A19222BA2298A00C577C2 /* AddQuestionView.swift in Sources */,
 				D02A19142BA203A100C577C2 /* BibleFlashCard.xcdatamodeld in Sources */,
 				D02A190A2BA203A100C577C2 /* ContentView.swift in Sources */,
+				D02A19262BA25AED00C577C2 /* CardFront.swift in Sources */,
+				D02A19202BA2177F00C577C2 /* QuizzView.swift in Sources */,
 				D02A19082BA203A100C577C2 /* BibleFlashCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +309,7 @@
 				DEVELOPMENT_TEAM = 98BMV7YP7Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BibleFlashCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +339,7 @@
 				DEVELOPMENT_TEAM = 98BMV7YP7Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BibleFlashCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
